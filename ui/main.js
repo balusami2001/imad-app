@@ -1,12 +1,12 @@
 console.log('Loaded!');
 var element =  document.getElementById('main-text');
-element.innerHTML='new value';
+element.innerHTML='i am bala.';
 
 
 var img=document.getElementById('madi');
 var marginRight=0;
 function moveLeft (){
-    marginRight=marginRight + 1;
+    marginRight=marginRight + 100;
     img.style.marginRight = marginRight + 'px';
     
 }
