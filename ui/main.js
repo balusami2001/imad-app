@@ -6,7 +6,7 @@ element.innerHTML='i am bala.';
 var img=document.getElementById('madi');
 var marginRight=0;
 function moveLeft (){
-    marginRight=marginRight + 100;
+    marginRight=marginRight + 10;
     img.style.marginRight = marginRight + 'px';
     
 }
