@@ -16,6 +16,6 @@ span.innerHTML = counter.toString();
      }
   }
   Request.open('get', 'http://balusami2001.imad.hasura-app.io/counter',true);
-  Request.send(null);
+  
 };
 };
